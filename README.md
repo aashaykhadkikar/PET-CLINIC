@@ -14,8 +14,7 @@ The project uses a MySQL relational database to organize clinic records and main
 - Pet Management: Maintain pet information, including name, species, breed, and date of birth.
 - Veterinarian Management: Store veterinarian details and specializations.
 - Appointment Management: Schedule appointments and track their status.
-- Treatment Management:Maintain diagnoses, treatment notes, and consultation costs.
-- Billing Management: Record billing amounts and payment statuses.
+- Treatment Management: Maintain diagnoses, treatment notes, and consultation costs.
 - Database Integration: Organize related information using relational tables and foreign keys.
 - Search and Reports: Retrieve and review clinic records efficiently.
 
@@ -28,7 +27,7 @@ The database consists of six main tables:
 3. `Vet` – Stores veterinarian names, specializations, and contact details.
 4. `Appointment` – Stores appointment dates, times, reasons, assigned pets, veterinarians, and statuses.
 5. `Treatment` – Stores diagnoses, treatment notes, and consultation costs.
-6. `Billing` – Stores bill amounts and payment statuses.
+
 
 Primary keys uniquely identify records, while foreign keys establish relationships between tables and help maintain data integrity.
 
