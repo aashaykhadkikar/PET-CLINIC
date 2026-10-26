@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Clinic DBMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🐾 Pet Clinic Management System</h1>
+
+    <!-- FORM TO REGISTER PET -->
+    <div class="card">
+        <h2>Register New Pet (FR2)</h2>
+        <form id="petForm">
+            <input type="text" id="petName" placeholder="Pet Name" required>
+            <input type="text" id="species" placeholder="Species (Dog/Cat)" required>
+            <input type="text" id="ownerName" placeholder="Owner Name" required>
+            <button type="submit">Add Pet</button>
+        </form>
+    </div>
+
+    <!-- TABLE TO SHOW PETS -->
+    <div class="card">
+        <h2>Registered Pets</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pet ID</th>
+                    <th>Name</th>
+                    <th>Species</th>
+                    <th>Owner</th>
+                </tr>
+            </thead>
+            <tbody id="petTableBody">
+                <!-- Data will be added here automatically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
